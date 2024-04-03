@@ -1,3 +1,7 @@
+## Appearence
+
+![](./figures/Mini_HSDAP.png)
+
 ## Notes <a name="top"></a>
 
 + USB input voltage should not exceed **5.5V!**
@@ -26,22 +30,19 @@ Real debugging tool, the product has the following features:
 
 ## 2 QuickStart
 
-### 2.1 Appearence
+### 2.1 Driver installation
 
-![](./figures/Mini_HSDAP.png)
-
-### 2.2 Driver installation
-#### 2.2.1 Notes
+#### 2.1.1 Notes
 1, WIN8 and above systems generally do not need to install drivers.
 2, HID communication mode and WINUSB communication mode need to install different drivers
 
-#### 2.2.2 HID communication mode
+#### 2.1.2 HID communication mode
 For details, see the related instructions in [HID_Serial_Port_Driver](./HID_serial_port_driver/HID_serial_port_driver_installation_tutorial.md)directory.
 
-#### 2.2.3 WINUSB communication mode
+#### 2.1.3 WINUSB communication mode
 For details, see the description in the [WINUSB_Driver](./WINUSB_driver/WINUSB_DAP_driver_installation_tutorial.md) directory.
 
-### 2.3 STM32CubeIDE Configuration
+### 2.2 STM32CubeIDE Configuration
 Open STM32CubeIDE and double-click this file as shown below.
 
 ![](./figures/h503_cfg.png)
