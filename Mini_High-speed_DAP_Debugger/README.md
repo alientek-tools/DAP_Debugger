@@ -53,7 +53,7 @@ Make the following changes in the pop-up window. Remember not to save immediatel
 
 ![](./figures/file.png)
 
-Let's select the upper toolbar **run configurations**.
+Let's select the upper toolbar **Run configurations**.
 
 ![](./figures/run.png)
 
