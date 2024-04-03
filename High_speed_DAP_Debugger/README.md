@@ -2,10 +2,12 @@
 ## Appearence
 
 ![](./figures/HSDAP.png)
+<img src="./figures/HSDAP.png" width="300">
 
 Output voltage, as shown below, all output voltage pins are connected.
 
 ![](./figures/output_voltage.png)
+<img src="./figures/output_voltage.png" width="300">
 
 ## 1 Features
 Here are the product features: 
