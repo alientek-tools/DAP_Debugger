@@ -1,13 +1,11 @@
 
 ## Appearence
 
-![](./figures/HSDAP.png)
-<img src="./figures/HSDAP.png" width="300">
+<img src="./figures/HSDAP.png" width="400">
 
 Output voltage, as shown below, all output voltage pins are connected.
 
-![](./figures/output_voltage.png)
-<img src="./figures/output_voltage.png" width="300">
+<img src="./figures/output_voltage.png" width="400">
 
 ## 1 Features
 Here are the product features: 
@@ -53,7 +51,6 @@ Open STM32CubeIDE and double-click this file as shown below.
 Make the following changes in the pop-up window. Remember not to save immediately after the changes, it is recommended to save as a "dap.cfg" file in the same directory.
 
 ![](./figures/dap.png)
-<img src="./figures/dap.png" width="500">
 
 ![](./figures/file.png)
 
