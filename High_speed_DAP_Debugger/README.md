@@ -35,6 +35,7 @@ Here are the product features:
 
 ### 2.1 Notes
 1, WIN8 and above systems generally do not need to install drivers.
+
 2, HID communication mode and WINUSB communication mode need to install different drivers
 
 ### 2.2 HID communication mode
@@ -48,7 +49,7 @@ Open STM32CubeIDE and double-click this file as shown below.
 
 ![](./figures/h503_cfg.png)
 
-Make the following changes in the pop-up window. Remember not to save immediately after the changes, it is recommended to save as a "dap.cfg" file in the same directory.
+Make the following changes in the pop-up window. Remember not to save immediately after the changes, it is recommended to save as a **dap.cfg** file in the same directory.
 
 ![](./figures/dap.png)
 
