@@ -1,6 +1,13 @@
-# 1 Introduction<a name="top"></a>
 
-## 1.1 Features
+## Appearence
+
+![](./figures/HSDAP.png)
+
+Output voltage, as shown below, all output voltage pins are connected.
+
+![](./figures/output_voltage.png)
+
+## 1 Features
 Here are the product features: 
 + Support **1.8V~5V** device, automatic detection
 + Support **1.8V/3.3V/5V** power output, set by the host computer
@@ -11,7 +18,7 @@ Here are the product features:
 + Support **WIN7/WIN8/WIN10/WIN11** and other operating systems
 + Small size, easy to carry
 
-## 1.2 Parameter
+### 1.1 Parameter
 
 | Parameter                  | Describe                           |
 | -------------------------- | ---------------------------------- |        
@@ -23,15 +30,8 @@ Here are the product features:
 | Temperature                | -40℃ ~ +85℃                      |
 | Size                       | 66.5mm * 40mm * 17mm               |
 
-## 1.3 Appearence
 
-![](./figures/HSDAP.png)
-
-Output voltage, as shown below, all output voltage pins are connected.
-
-![](./figures/output_voltage.png)
-
-# 2 Driver installation
+## 2 Driver installation
 
 ### 2.1 Notes
 1, WIN8 and above systems generally do not need to install drivers.
@@ -43,7 +43,7 @@ For details, see the related instructions in [HID Serial Port Driver](./HID_seri
 ### 2.3 WINUSB communication mode
 For details, see the description in the [WINUSB Driver](./WINUSB_driver/WINUSB_DAP_driver_installation_tutorial.md) directory.
 
-# 3 STM32CubeIDE Configuration
+## 3 STM32CubeIDE Configuration
 Open STM32CubeIDE and double-click this file as shown below.
 
 ![](./figures/h503_cfg.png)
@@ -72,11 +72,9 @@ Click **Debugger** again and select the **dap.cfg** file we saved.
 
 That's it for downloading and debugging.
 
-## 3 Using
+## 4 Using
 High-speed DAP is equipped with debugging serial port, which must be connected to VCC or set output voltage not 0V, and only 8 data bits are supported. Use the same as ordinary USB to serial port, **WIN7** needs to install the driver, WIN8 and above system generally will automatically install the driver.
-After the correct drive, open the serial assistant to see the serial port. Refer to [Section 1.3](#13-appearence) for serial port pins.
+After the correct drive, open the serial assistant to see the serial port. Refer to [Appearence](#appearence) for serial port pins.
 
-
-[back to the top](#top)
 
 

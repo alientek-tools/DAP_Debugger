@@ -74,9 +74,8 @@ That's it for downloading and debugging.
 ## 3 Using
 The Mini high-speed DAP is configured with a debug serial port and supports only 8-bit data bits. It is used in the same way as the ordinary USB to serial port.
 WIN7 needs to install the driver, WIN8 and above system generally will automatically install the driver.
-After the correct drive, open the serial assistant to see the serial port. Refer to [Section 2.1](#21-appearence) for serial port pins.
+After the correct drive, open the serial assistant to see the serial port. Refer to [Appearence](#appearence) for serial port pins.
 
-[back to the top](#top)
 
 
 
