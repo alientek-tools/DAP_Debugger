@@ -26,7 +26,6 @@ Below is the **mini receiver** of the high-speed wireless debugger.
 + Provide 20P standard **JTAG** interface, provide 4P simplified **SWD** interface
 + Support **WIN7/WIN8/WIN10/WIN11** and other operating systems
 + Small size, easy to carry
-+ Download speed is fast
 
 ### 1.1 Parameter
 
