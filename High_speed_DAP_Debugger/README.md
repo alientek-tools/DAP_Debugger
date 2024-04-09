@@ -8,7 +8,7 @@ Output voltage, as shown below, all output voltage pins are connected.
 <img src="./figures/output_voltage.png" width="400">
 
 ## 1 Features
-Here are the product features: 
+
 + Support **1.8V~5V** device, automatic detection
 + Support **1.8V/3.3V/5V** power output, set by the host computer
 + Support **MDK/STM32CubeIDE** compiler, no driver, no loss of firmware
@@ -24,7 +24,7 @@ Here are the product features:
 | -------------------------- | ---------------------------------- |        
 | Product model              | ATK-PTD01H                         |
 | Serial speed               | 1Mbps(max)                         |
-| Programmer speed           | 10M(max)                           |
+| Burning speed              | 10M(max)                           |
 | Working voltage            | 5V(Power supply with USB interface)|
 | Working current            | 97mA                               |
 | Temperature                | -40℃ ~ +85℃                      |
@@ -47,29 +47,29 @@ For details, see the description in the [WINUSB Driver](./WINUSB_driver/WINUSB_D
 ## 3 STM32CubeIDE Configuration
 Open STM32CubeIDE and double-click this file as shown below.
 
-![](./figures/h503_cfg.png)
+<img src="./figures/h503_cfg.png">
 
 Make the following changes in the pop-up window. Remember not to save immediately after the changes, it is recommended to save as a **dap.cfg** file in the same directory.
 
-![](./figures/dap.png)
+<img src="./figures/dap.png">
 
-![](./figures/file.png)
+<img src="./figures/file.png">
 
 Let's select the upper toolbar **Run configurations**.
 
-![](./figures/run.png)
+<img src="./figures/run.png">
 
 Double-click **h503_test** on the left, and select the appropriate option as labeled in the figure.
 
-![](./figures/32.png)
+<img src="./figures/32.png">
 
 Click **Debugger** for configuration.
 
-![](./figures/33.png)
+<img src="./figures/33.png">
 
 Click **Debugger** again and select the **dap.cfg** file we saved.
 
-![](./figures/37.png)
+<img src="./figures/37.png">
 
 That's it for downloading and debugging.
 
