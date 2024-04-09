@@ -10,6 +10,7 @@ The following figure shows the **receiver** of the high-speed wireless debugger:
 <img src="./figures/PTD02HW.png">
 
 Below is the **mini receiver** of the high-speed wireless debugger.
+
 <img src="./figures/miniRX.png" width="250" height="100">
 
 
@@ -29,21 +30,21 @@ Below is the **mini receiver** of the high-speed wireless debugger.
 
 ### 1.1 Parameter
 
-| Parameter                         | Describe                           	 |
-| ----------------------------------|----------------------------------- 	 |	        
-| Product Model                     | ATK-PTD02HW                         	 |
-| Simulation Interface              | JTAG,SWD                               | 
+| Parameter                         | Describe                               |
+| ----------------------------------|-----------------------------------     |	        
+| Product Model                     | ATK-PTD02HW                            |
+| Simulation Interface              | JTAG, SWD                              | 
 | Serial speed                      | 1Mbps(max)                             |
 | Burning speed                     | 10M                                    |
-| Communication distance     		| ≥10M 								 	 |
-| TX operating voltage              | 5V (power by USB) 				 	 |
-| TX operating current     		    | 151mA 						     	 |
+| Communication distance            | ≥10M(≥5 meters when using RX)          |
+| TX operating voltage              | 5V (power by USB)                      |
+| TX operating current              | 151mA                                  |
 | RX operating voltage              | 3.3V / 5V(power by USB or JTAG or SWD) |
-| RX operating current      		| 132mA@5V 								 |
-| RXmin operating voltage     	    | 3.3V / 5V(power by USB or JTAG or SWD) |
-| RXmin operating current    	    | 60mA@5V 								 |
+| RX operating current              | 132mA@5V                               |
+| RXmin operating voltage           | 3.3V / 5V(power by USB or JTAG or SWD) |
+| RXmin operating current           | 60mA@5V                                |
 | Temperature                       | -40℃ ~ +85℃                          |
-| Size                       		| 66.5mm * 40mm * 17mm               	 |
+| Size                              | 66.5mm * 40mm * 17mm                   |
 | RXmin size                        | 40mm * 20mm                            |
 
 ### 1.2 Connection
